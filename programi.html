@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Doris Martinović, Tona Pražen, Dorian Vuk">
+    <meta name="description" content="Kategorija programi i svi projekti pod tom kategorijom">
+    <title>Programi</title>
+    <link rel="stylesheet" href="xxstyles.css">
+    <link rel="icon" href="logo.svg" type="image/svg+xml">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h4>Osnovna škola Augusta Harambašića Zagreb</h4>
+        <div class="login">
+          <input type="text" placeholder="Korisnik" id="username">
+          <input type="password" placeholder="Lozinka" id="password">
+          <button class="small-button">Prijavi se</button>
+        </div>
+      </header>
+
+      <div class="main-content">
+        <nav class="sidebar">
+          <a href="index.html"><img class="logo" src="logo.svg" alt="School Logo"></a>
+          <ul class="submenu">
+            <li><a href="prijava_projekta.html" class="no-underline" id="prijava_projekata">Prijava projekata</a></li>
+            <li><a href="natjecanja.html" class="no-underline">Natjecanja</a></li>
+            <li><a href="programi.html" class="no-underline">Programi</a></li>
+            <li><a href="radionice.html" class="no-underline">Radionice</a></li>
+            <li><a href="proslave.html" class="no-underline">Proslave</a></li>
+            <li><a href="eu_projekti.html" class="no-underline">EU projekti</a></li>
+          </ul>
+        </nav>
+
+        <section class="main-section">
+          <div class="slideshow">
+            <img class="slide" src="1projekt.png" alt="Projekt 1" title="Projekt 1">
+            <img class="slide" src="2projekt.png" alt="Projekt 2" title="Projekt 2">
+            <img class="slide" src="3projekt.png" alt="Projekt 3" title="Projekt 3">
+            <img class="slide" src="4projekt.png" alt="Projekt 4" title="Projekt 4">
+            <img class="slide" src="5projekt.png" alt="Projekt 5" title="Projekt 5">
+            <img class="slide" src="6projekt.png" alt="Projekt 6" title="Projekt 6">
+            <img class="slide" src="7projekt.png" alt="Projekt 7" title="Projekt 7">
+            <img class="slide" src="8projekt.png" alt="Projekt 8" title="Projekt 8">
+            <img class="slide" src="9projekt.png" alt="Projekt 9" title="Projekt 9">
+          </div>
+
+          <div class="icon-section">
+            <div class="social-media">
+              <span class="icon"><a href="https://www.facebook.com" target="_blank"><img src="facebook.png" alt="Facebook"></a></span>
+              <span class="icon"><a href="https://www.instagram.com" target="_blank"><img src="instagram.png" alt="Instagram"></a></span>
+              <span class="icon"><a href="mailto:os-zagreb-029@os-aharambasica-zg.skole.hr" target="_blank"><img src="mail.png" alt="E-mail"></a></span>
+            </div>
+            <div class="settings">
+              <span class="icon"><img src="settings.png" alt="Postavke"></span>
+              <div class="settings-menu">
+                <h3>Postavke pristupačnosti</h3>
+                <div>
+                    <label for="font-size-slider">Veličina fonta:</label>
+                    <input type="range" id="font-size-slider" min="12" max="24" value="16">
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" id="high-contrast">
+                        <span>Visoki kontrast</span>
+                    </label>
+                </div>
+            </div>
+            </div>
+          </div>
+
+          <div class="content-box">
+            <a href="obavijesti_programi.html" class="news-button">Obavijesti</a>
+            <h2>Programi</h2>
+            <h4>Programi se odnose na dugoročne projekte učenja i razvoja koje škola nudi za obogaćivanje obrazovanja učenika.</h4>
+            
+            <div class="project" data-category="Programi" data-date="2025-08-20" data-name="Budi Internet Genijalac">
+              <div>
+                <h3>Budi Internet Genijalac</h3>
+                <p>Opis: Edukativni program za sigurno i odgovorno korištenje interneta.</p>
+                <p id="contact-person">Kontakt osoba: Antun Mihajlović</p>
+                <p>Rok prijave: 20. kolovoza 2025.</p>
+                <p id="free-slots">Slobodna mjesta: 25</p>
+                <a href="prijava_projekta.html?project=Budi%20Internet%20Genijalac" class="apply-button">Prijavi se</a>
+              </div>
+              <div>
+                <img src="intgenijalac.png" alt="Budi Internet Genijalac" title="Budi Internet Genijalac">
+              </div>    
+            </div>
+            <div class="project" data-category="Programi" data-date="2025-01-30" data-name="INNOLAB">
+              <div>
+                <h3>INNOLAB</h3>
+                <p>Opis: Inovacijski laboratorij za razvoj STEM vještina među mladima.</p>
+                <p id="contact-person">Kontakt osoba: Marko Martinović</p>
+                <p>Rok prijave: 30. siječnja 2025.</p>
+                <p id="free-slots">Slobodna mjesta: 20</p>
+                <a href="prijava_projekta.html?project=INNOLAB" class="apply-button">Prijavi se</a>
+              </div>
+              <div>
+                <img src="innolab.png" alt="INNOLAB" title="INNOLAB">
+              </div>       
+            </div>
+            <div class="project" data-category="Programi" data-date="2025-01-12" data-name="Zagreb930">
+              <div>
+                <h3>Zagreb930</h3>
+                <p>Opis: Obilježavanje 930 godina od osnutka Zagreba kroz kulturne i edukativne programe.</p>
+                <p id="contact-person">Kontakt osoba: Tanja Čivčija</p>
+                <p>Rok prijave: 12. siječnja 2025.</p>
+                <p id="free-slots">Slobodna mjesta: 10</p>
+                <a href="prijava_projekta.html?project=Zagreb930" class="apply-button">Prijavi se</a>
+              </div>
+              <div>
+                <img src="zagreb930.png" alt="Zagreb930" title="Zagreb930">
+              </div>            
+            </div>
+            <div class="project" data-category="Programi" data-date="2024-12-01" data-name="SFERICA 2024.">
+              <div>
+                <h3>SFERICA 2024.</h3>
+                <p>Opis: STEM projekt s fokusom na fiziku i astronomiju za učenike osnovnih škola.</p>
+                <p id="contact-person">Kontakt osoba: Žarko Pejaković</p>
+                <p>Rok prijave: 1. prosinca 2024.</p>
+                <p id="free-slots">Slobodna mjesta: 30</p>
+                <a href="prijava_projekta.html?project=SFERICA%202024." class="apply-button">Prijavi se</a>
+              </div>
+              <div>
+                <img src="sferica.png" alt="SFERICA 2024." title="SFERICA 2024.">
+              </div>         
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

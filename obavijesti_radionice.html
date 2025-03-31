@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Doris Martinović, Tona Pražen, Dorian Vuk">
+    <meta name="description" content="Obavijesti kategorije natjecanja">
+    <title>Obavijesti</title>
+    <link rel="stylesheet" href="xxstyles.css">
+    <link rel="icon" href="logo.svg" type="image/svg+xml">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h4>Osnovna škola Augusta Harambašića Zagreb</h4>
+        <div class="login">
+          <input type="text" placeholder="Korisnik" id="username">
+          <input type="password" placeholder="Lozinka" id="password">
+          <button class="small-button">Prijavi se</button>
+        </div>
+      </header>
+
+      <div class="main-content">
+        <nav class="sidebar">
+          <a href="index.html"><img class="logo" src="logo.svg" alt="School Logo"></a>
+          <ul class="submenu">
+            <li><a href="prijava_projekta.html" class="no-underline" id="prijava_projekata">Prijava projekata</a></li>
+            <li><a href="natjecanja.html" class="no-underline">Natjecanja</a></li>
+            <li><a href="programi.html" class="no-underline">Programi</a></li>
+            <li><a href="radionice.html" class="no-underline">Radionice</a></li>
+            <li><a href="proslave.html" class="no-underline">Proslave</a></li>
+            <li><a href="eu_projekti.html" class="no-underline">EU projekti</a></li>
+          </ul>
+        </nav>
+
+        <section class="main-section">
+          <div class="slideshow">
+            <img class="slide" src="1projekt.png" alt="Projekt 1" title="Projekt 1">
+            <img class="slide" src="2projekt.png" alt="Projekt 2" title="Projekt 2">
+            <img class="slide" src="3projekt.png" alt="Projekt 3" title="Projekt 3">
+            <img class="slide" src="4projekt.png" alt="Projekt 4" title="Projekt 4">
+            <img class="slide" src="5projekt.png" alt="Projekt 5" title="Projekt 5">
+            <img class="slide" src="6projekt.png" alt="Projekt 6" title="Projekt 6">
+            <img class="slide" src="7projekt.png" alt="Projekt 7" title="Projekt 7">
+            <img class="slide" src="8projekt.png" alt="Projekt 8" title="Projekt 8">
+            <img class="slide" src="9projekt.png" alt="Projekt 9" title="Projekt 9">
+          </div>
+
+          <div class="icon-section">
+            <div class="social-media">
+              <span class="icon"><a href="https://www.facebook.com" target="_blank"><img src="facebook.png" alt="Facebook"></a></span>
+              <span class="icon"><a href="https://www.instagram.com" target="_blank"><img src="instagram.png" alt="Instagram"></a></span>
+              <span class="icon"><a href="mailto:os-zagreb-029@os-aharambasica-zg.skole.hr" target="_blank"><img src="mail.png" alt="E-mail"></a></span>
+            </div>
+            <div class="settings">
+              <span class="icon"><img src="settings.png" alt="Postavke"></span>
+              <div class="settings-menu">
+                <h3>Postavke pristupačnosti</h3>
+                <div>
+                    <label for="font-size-slider">Veličina fonta:</label>
+                    <input type="range" id="font-size-slider" min="12" max="24" value="16">
+                </div>
+                <div>
+                    <label>
+                        <input type="checkbox" id="high-contrast">
+                        <span>Visoki kontrast</span>
+                    </label>
+                </div>
+            </div>
+            </div>
+          </div>
+          <div class="content-box">
+            <a href="radionice.html" class="news-button">Natrag</a>
+            <h2>Obavijesti - Radionice</h2>
+            <h4>Radionice su osmišljene kako bi učenici kroz praktični rad stekli nove vještine i znanja u raznim područjima.</h4>
+            <div class="projectnews">
+              <div>
+                <h3>LJETO DOBRIH PRIČA – ljetne radionice u školskoj knjižnici</h3>
+                <p>U tjednu nakon nastave (24.-28.6) u školskoj će se knjižnici održati 5 kreativnih radionica namijenjene učenicima od 1.- 8. razreda.
+                <br>Za svaki dan planirana je određena radionica. Svaka radionica počinje u 11:00 i traje do 12:35. </p>
+                <p>Prijave za radionice traju do ovog petka 21.6. kod razrednika ili u školskoj knjižnici.</p>
+                <p>Veselimo se druženju 🙂 </p>
+              </div>
+            </div>
+            <div class="projectnews">
+              <div>
+                <h3>Radionice Školskog - krasopis</h3>
+                <p>Krasopisnu radionicu vodi stroga učiteljica iz 19. stoljeća uz nezaobilazne rekvizite iz tog vremena; odjevena po ondašnjoj modi poučit će Vas hitro kako uspravno sjediti, kako se pristojno vladati i perom lijepo pisati!</p>
+              </div>
+              <div>
+                <img src="o_radionice1.png" alt="Radionice Školskog 2024." title="Radionice Školskog 2024.">
+              </div>
+            </div>
+            <div class="projectnews">
+              <div>
+                <h3>Projekt "Više od kiše" 2024.</h3>
+                <p>U sklopu projekta Više od kiše organizirali smo radionicu s volonterima INA-e, tvrtke koja je podržala projekt i prepoznala njegovu važnost za zaštitu okoliša. 
+                  <br>Volonteri su zajedno s učenicima sadili sadnice oko sustava za skupljanje kišnice.</p>
+              </div>
+              <div>
+                <img src="o_radionice2.png" alt="Više od kiše 2024." title="Više od kiše 2024.">
+              </div>
+            
+        </section>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
